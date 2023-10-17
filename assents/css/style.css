@@ -250,6 +250,14 @@ header{
         max-width: 720px;
 
     }
+    .containerproje .slide-container .slide .contentproje h1{
+        font-size: 300px;
+        color: #eeeeeec5;
+        text-align: center;
+        align-items: end;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 90px;
+    }
 }
 /* fim do banner*/
 
@@ -263,8 +271,6 @@ header{
     color: #C30040;
 
 }
-
-
 
 .container_rza{
     display: flex;
@@ -296,6 +302,41 @@ header{
 }
 .section_rza .container_rza .text_rza_2 p{
     color: #000000;
+}
+@media screen and (max-width: 730px) {
+    .section_rza{
+        max-width: 730px;
+        margin: 0 auto;
+        padding-top: 30px;
+        box-shadow: 0px 3px  3px rgba(0, 0, 0, 0.466);
+        color: #C30040;
+    }
+    .titulo_index{
+        font-size: 15px;
+    }
+    .container_rza{
+        display: flex;
+        flex-direction: column;
+        max-width: 630px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .section_rza .container_rza .text_rza_1{
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
+    .section_rza .container_rza .text_rza_2{
+        padding-top: 5px;
+        padding-left: 0px;
+        
+    }
+    .section_rza .container_rza .text_rza_1 h1{
+        padding-bottom: 10px;
+    }
+    .section_rza .container_rza .text_rza_2 h1{
+        padding-bottom: 10px;
+    }
+    
 }
 
 /* fim da section rza*/
@@ -352,6 +393,55 @@ header{
     width: 794px;
     border-radius: 10px;
     
+}
+@media screen and (max-width: 730px) {
+    .servicos_section{
+        max-width: 730px;
+        margin: 0 auto;
+    }
+    .servicos_section .titulo{
+        color: #C30040;
+        font-size: 20px;
+    }
+    .rza_container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        max-width: 730px;
+        height: 70vh; 
+    } 
+    .rza_text_1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-attachment: fixed;
+        padding-top: 5px;
+        
+    }
+    .rza_text_1 .container_text{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: #494949a2;
+        max-height: auto;
+        border-radius: 10px ;
+    }
+    .rza_text_1 .container_text h1{
+        color: #000000;
+        font-size: 10px;
+    }
+    .rza_text_1 .container_text p{
+        text-align: left;
+        color: #fff;
+        font-size: 8px;
+    }
+    
+    .rza_text_1 .img_serv img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        
+    }   
 }
 /* fim da pagina serviços*/
 
@@ -449,7 +539,116 @@ header{
 .containerproje #next{
     right: 20px;
 }
+@media screen and (max-width: 730px) {
+    .containerproje .slide-container .slide .contentproje h2{
+        font-size: 10px;
+        color: #ffffff;
+        font-family: 'Noto Sans', sans-serif;
+        width: 40%;
+        height: 10%;
+        text-align: center ;
+    
+    }
+    .containerproje .slide-container:nth-child(1) .slide{
+        background: url("/assents/img/banner_01.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px
+        height: 200px;
+    }
+    
+    .containerproje .slide-container:nth-child(2) .slide{
+        background: url("/assents/img/banner_03.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+    }
+    
 
+    .containerproje .slide-container:nth-child(3) .slide{
+        background: url("/assents/img/banner_07.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+    }
+    .containerproje .slide-container:nth-child(4) .slide{
+        background: url("/assents/img/banner_08.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+    }
+    .containerproje .slide-container:nth-child(5) .slide{
+        background: url("/assents/img/banner_09.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        
+    }.containerproje .slide-container:nth-child(6) .slide{
+        background: url("/assents/img/banner_10.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        
+    }
+    .containerproje .slide-container:nth-child(7) .slide{
+        background: url("/assents/img/banner_11.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        
+    }
+    .containerproje .slide-container:nth-child(8) .slide{
+        background: url("/assents/img/banner_12.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+    }
+    .containerproje .slide-container:nth-child(9) .slide{
+        background: url("/assents/img/banner_13.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        
+    }
+    .containerproje .slide-container:nth-child(10) .slide{
+        background: url("/assents/img/banner_14.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+    
+    }
+    footer{
+        max-width: 730px;
+    }
+    .footer_infor {
+        display: none;
+        font-size: 10px;
+    }
+    
+    .elementor-grid-item span{
+        display: none;
+    }
+    
+    .elementor-screen-only{
+        display: none;  
+    }
+    
+    .elementor-icon{
+        font-size: 30px ;
+        margin: 5px;
+        text-decoration: none;
+    
+    }
+}
 
 /* fim da projetos*/
 
@@ -503,6 +702,86 @@ header{
     border-radius: 30px;
 }
 
+@media screen and (max-width: 730px) {
+
+    .section_equipe{
+        text-align: center;
+        padding-top: 30px ;
+        max-width: 730px;
+        height: 100%;
+        margin: 0 auto;
+        box-shadow: 0px 3px  3px rgba(0, 0, 0, 0.466);
+        display: flex;
+        flex-direction: column ;  
+    }
+
+    .titulo_equipe{
+        font-size: 15px;
+        
+    }
+    .container_equipe{
+        max-width: 630px;
+        margin: 0 auto; 
+    }
+    .equipe_rza{
+        max-width: 530px;
+        margin: 0 auto;
+        height: 55vh;
+        display: flex;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .text_equipe{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        
+    }
+    .text_equipe h3{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .text_equipe p{
+    padding-top: 5px;
+    text-align: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #000000;
+    font-size: 8px;
+    }
+    .img-equipe {
+        width: 150px;
+        height: 150px;
+    }
+    
+
+    footer{
+        max-width: 730px;
+    }
+    .footer_infor {
+        display: none;
+        font-size: 10px;
+    }
+    
+    .elementor-grid-item span{
+        display: none;
+    }
+    
+    .elementor-screen-only{
+        display: none;  
+    }
+    
+    .elementor-icon{
+        font-size: 30px ;
+        margin: 5px;
+        text-decoration: none
+    
+    }
+    
+}
+
 /* fim de equipe*/
 
 /* inicio de contato */
@@ -540,7 +819,76 @@ header{
     color: #000000;
     font-style: italic;
     
-}    
+}
+
+@media screen and (max-width: 730px) {
+
+    .section_contato{
+        text-align: center;
+        padding-top: 30px ;
+        max-width: 730px;
+        height: 100%;
+        margin: 0 auto;
+        box-shadow: 0px 3px  3px rgba(0, 0, 0, 0.466);
+        display: flex;
+        flex-direction: column ;
+        
+    }
+    .titulo_contato{
+        font-size: 15px;
+        text-align: center;
+    }
+    .container_contato{
+        max-width: 630px;
+        margin: 0 auto;
+
+    }
+    .contato_rza{
+        max-width: 530px;
+        height: 55vh;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .text_contato p{
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .container_maps_rza{
+        max-width: 330px;
+        
+    }
+
+    .container_maps_rza iframe{
+        width: 150px;
+        height: 150px;
+    }
+
+    footer{
+        max-width: 730px;
+    }
+    .footer_infor {
+        display: none;
+        font-size: 10px;
+    }
+    
+    .elementor-grid-item span{
+        display: none;
+    }
+    
+    .elementor-screen-only{
+        display: none;  
+    }
+    
+    .elementor-icon{
+        font-size: 30px ;
+        margin: 5px;
+        text-decoration: none
+    
+    }
+    
+}
 
 footer{
     
